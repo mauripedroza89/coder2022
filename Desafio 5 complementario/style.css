@@ -1,0 +1,21 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    border: 1px solid #000; 
+    
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    background-color: cyan;
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    border: 1px solid #000; 
+    
+}
