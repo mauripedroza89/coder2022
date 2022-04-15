@@ -42,8 +42,8 @@ Presione Si para hacerlo o No
 function nuevoProd (){
     if (agregarProds === "si" || agregarProds === "Si" || agregarProds === "SI"){
 
-        //Deseo saber como meter un while para parar de agregar productos con la tecla ESC
-        for (let i = 0; i <2; i++){
+        //al presionar la tecla ESC, sigue sin salirse del bucle.
+        while (agregarProds != "ESC"){
             
             let instrumento = prompt("Ingrese el tipo de instrumento o presione ESC para terminar");
                 let marca = prompt("Ingrese la marca del instrumento");
