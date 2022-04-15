@@ -1,0 +1,25 @@
+.mainflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    border: 1px solid #000; 
+    
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+  .tableflex {
+      display: flex;
+      flex-direction: column;
+  }
