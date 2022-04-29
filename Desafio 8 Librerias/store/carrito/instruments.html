@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="card.css">
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">    <title>Document</title>
+   <title>Instruments</title>
+</head>
+<body class="budi">
+  <div>
+    <div class="wrapper">
+        <div class="product-img">
+          <img src="/store/carrito/images/fender.jpg" height="420" width="327">
+        </div>
+        <div class="product-info">
+          <div class="product-text">
+            <h1>Fender guitar</h1>
+            <h2>6 strings guitar</h2>
+          </div>
+          <div class="product-price-btn">
+            <p>$<span>8000</span></p>
+            <button id="addbtn" type="button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="product-img">
+          <img src="/store/carrito/images/gibson.jpg" height="420" width="327">
+        </div>
+        <div class="product-info">
+          <div class="product-text">
+            <h1>Fender guitar</h1>
+            <h2>6 strings guitar</h2>
+          </div>
+          <div class="product-price-btn">
+            <p>$<span>10000</span></p>
+            <button id="addbtn" type="button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="product-img">
+          <img src="/store/carrito/images/ibanez.jpg" height="420" width="327">
+        </div>
+        <div class="product-info">
+          <div class="product-text">
+            <h1>Fender guitar</h1>
+            <h2>6 strings guitar</h2>
+          </div>
+          <div class="product-price-btn">
+            <p>$<span>6000</span></p>
+            <button id="addbtn" type="button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="product-img">
+          <img src="/store/carrito/images/pear.jpg" height="420" width="327">
+        </div>
+        <div class="product-info">
+          <div class="product-text">
+            <h1>Fender guitar</h1>
+            <h2>6 strings guitar</h2>
+          </div>
+          <div class="product-price-btn">
+            <p>$<span>18000</span></p>
+            <button id="addbtn" type="button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+  </div> 
+
+  <div>
+    <h1>Carrito</h1>
+  <table class="table ">
+    <thead>
+      <tr>
+        <th scope="col">Articulo</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Cantidad</th>
+        <th scope="col"></th>
+      </tr>
+      
+    </thead>
+    <tbody >
+      <th scope="row">${producto.cantidad}</th>
+    <td>${producto.instrumento}</td>
+    <td>${producto.marca}</td>
+    <td><button class="btn btn-danger" >Remover</button></td>
+    
+    </tbody>
+    <th scope="col">Total<span></span></th>
+    <td><button >Agregar al carrito</button></td>
+    
+  </div>
+  
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="intruments.js" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
