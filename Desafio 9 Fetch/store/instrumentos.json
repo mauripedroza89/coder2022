@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "instrumento": "Guitarra",
+        "marca": "Ibanez",
+        "precio": 13600,
+        "img": "https://i.ibb.co/QJfqs4K/1.jpg"
+        
+    },
+    {
+        "id": "2",
+        "instrumento": "Guitarra",
+        "marca": "Fender",
+        "precio": 11000,
+        "img": "https://i.ibb.co/QJfqs4K/1.jpg"
+        
+    },
+    {
+        "id": "3",
+        "instrumento": "Guitarra",
+        "marca": "Gibson",
+        "precio": 33000,
+        "img": "https://i.ibb.co/QJfqs4K/1.jpg"
+        
+    },
+    {
+        "id": "4",
+        "instrumento": "Bateria",
+        "marca": "Pearl",
+        "precio": 15000,
+        "img": "https://i.ibb.co/QJfqs4K/1.jpg"
+        
+    },
+    {
+        "id": "5",
+        "instrumento": "Guitarra",
+        "marca": "Ibanez",
+        "precio": 6000,
+        "img": "https://i.ibb.co/QJfqs4K/1.jpg"
+        
+    },
+    {
+        "id": "6",
+        "instrumento": "Bateria",
+        "marca": "Powerbeat",
+        "precio": 5000,
+        "img": "https://i.ibb.co/QJfqs4K/1.jpg"
+        
+    }
+
+]
